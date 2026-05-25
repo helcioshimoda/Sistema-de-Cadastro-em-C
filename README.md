@@ -1,25 +1,25 @@
-# 📋 Sistema de Cadastro de Clientes em Fila
+# Sistema de Cadastro de Clientes em Fila
 
 Sistema de gerenciamento de clientes implementado em **linguagem C**, utilizando a estrutura de dados **Fila (Queue)** com alocação estática.
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto implementa um sistema simples de cadastro de clientes via terminal, onde os dados são armazenados em uma fila de tamanho fixo. O sistema segue o princípio **FIFO (First In, First Out)** — o primeiro cliente cadastrado é o primeiro a ser removido.
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
-- ✅ **Cadastrar cliente** — nome, email, idade e CPF
-- ❌ **Remover cliente** — remove o primeiro da fila (FIFO)
-- 📄 **Listar clientes** — exibe todos os clientes cadastrados
-- 🚪 **Sair** — encerra o programa
+- **Cadastrar cliente** — nome, email, idade e CPF
+- **Remover cliente** — remove o primeiro da fila (FIFO)
+- **Listar clientes** — exibe todos os clientes cadastrados
+- **Sair** — encerra o programa
 
 ---
 
-## 🗂️ Estrutura do Código
+## Estrutura do Código
 
 ```
 ├── struct clientes     → Estrutura que armazena os dados da fila
@@ -31,7 +31,7 @@ Este projeto implementa um sistema simples de cadastro de clientes via terminal,
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - Compilador GCC instalado
@@ -56,7 +56,7 @@ gcc clientes.c -o clientes
 
 ---
 
-## 📐 Detalhes Técnicos
+## Detalhes Técnicos
 
 | Item | Detalhe |
 |---|---|
@@ -68,7 +68,7 @@ gcc clientes.c -o clientes
 
 ---
 
-## 💡 Observações
+## Observações
 
 - A capacidade máxima da fila é definida pela constante `MAX` (padrão: 5). Para aumentar, basta alterar o valor no código.
 - O CPF é armazenado como string (somente números).
@@ -76,7 +76,7 @@ gcc clientes.c -o clientes
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Helcio Yuji Shimoda**  
 Estudante de Análise e Desenvolvimento de Sistemas — Fatec Campinas
